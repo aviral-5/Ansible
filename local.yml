@@ -1,0 +1,10 @@
+---
+
+- hosts: LinodeServer
+  connection: local
+  beacome: true
+
+  tasks:
+  - name: Install htop
+    apt:
+      name: htop
